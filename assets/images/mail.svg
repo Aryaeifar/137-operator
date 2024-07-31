@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4207" data-name="Rectangle 4207" width="26" height="26" transform="translate(889 935)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-889 -935)" clip-path="url(#clip-path)">
+    <path id="Icon_material-email" data-name="Icon material-email" d="M18.4,6H4.711a1.709,1.709,0,0,0-1.7,1.711L3,17.98a1.716,1.716,0,0,0,1.711,1.711H18.4a1.716,1.716,0,0,0,1.711-1.711V7.711A1.716,1.716,0,0,0,18.4,6Zm0,3.423L11.557,13.7,4.711,9.423V7.711l6.846,4.278L18.4,7.711Z" transform="translate(890 935)" fill="#00a58f"/>
+  </g>
+</svg>

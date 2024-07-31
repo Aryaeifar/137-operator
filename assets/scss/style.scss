@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'iransans-regular';
+    src: url('/assets/fonts/IRANSansX-Regular.woff');
+}
+@font-face {
+  font-family: 'iransansNum-regular';
+  src: url('/assets/fonts/IRANSansXFaNum-Regular.woff2');
+}
+html {
+    font-size: 62.5%;
+    min-height: 100vh;
+  }
+body {
+    direction: rtl !important;
+    text-align: right;
+    font-family: 'iransansNum-regular' !important;
+    background: $neu;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+#__nuxt {
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+input:focus-visible {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: 'iransansNum-regular' !important;
+
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.v-locale--is-ltr {
+  direction: rtl !important;
+}
+.homepage {
+   .homepage-intro {
+    border-radius: 0 0 65px 65px;
+    position: relative;
+    height: 37rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+   }
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+.footer {
+  background-color: #F6F6F6;
+}
+
+.form_input {
+  border-radius: 1rem;
+  .v-field__outline {
+    display: none;
+  }
+  .v-input__details {
+    background-color: $white !important;
+  }
+}
+.base-border {
+  border: 1px solid #DFDFDF;
+}
+.mh-100vh {
+  min-height: 100vh;
+}
+// Submit-report
+.submit-report-page, .report-page {
+  .info-section,.search-section {
+    .v-field__outline {
+      display: none;
+    }
+    .v-input__details {
+      display: none;
+    }
+  }
+  .info-section {
+    .info-section_item {
+      width: 25%;
+    }
+  }
+  .submit-report__request-type {
+    .v-input__control {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .v-selection-control-group {
+        margin-top: 0 !important;
+      }
+    }
+  }
+}
+
+
+// Components
+.element__radio-box {
+  border: 1px solid #EBEBEB;
+  border-radius: .3rem;
+}
+.base-select-box {
+  .v-field--variant-solo-inverted {
+    box-shadow: none;
+    border: 1px solid rgb(207, 207, 207);
+  }
+  .v-field--variant-solo-filled {
+    box-shadow: none;
+    border: 1px solid rgb(207, 207, 207);
+  }
+}
+.search-section {
+  .v-field--variant-solo-filled {
+    border: none;
+    .v-field__overlay {
+      background-color: white;
+    }
+  }
+}
+.custom-modal {
+  .v-card  {
+    background-color: $neu;
+  }
+}
+.mapboxgl-canvas {
+  border-radius: .3rem;
+}
+._vue-flash-msg-body {
+  flex-direction: column;
+  z-index: 100000;
+
+  ._vue-flash-msg-body__content {
+    min-height: 50px;
+  }
+
+  &.rtl {
+    text-align: right !important;
+
+    ._vue-flash-msg-body__content {
+      border-left: 0px !important;
+      padding-left: 0px !important;
+      padding-right: 20px !important;
+    }
+
+    &._vue-flash-msg-body_success {
+      & ._vue-flash-msg-body__content {
+        border-right: 5px solid var(--dark-green);
+      }
+    }
+
+    &._vue-flash-msg-body_info {
+      & ._vue-flash-msg-body__content {
+        border-right: 5px solid var(--dark-blue);
+      }
+    }
+
+    &._vue-flash-msg-body_error {
+      & ._vue-flash-msg-body__content {
+        border-right: 5px solid var(--red);
+      }
+    }
+
+    &._vue-flash-msg-body_warning {
+      & ._vue-flash-msg-body__content {
+        border-right: 5px solid var(--orange);
+      }
+    }
+  }
+}
+.infinite-scroll {
+  display: flex;
+  justify-content: center;
+}
+
+
+// Sidebar
+.sidebar-buttons {
+  position: fixed;
+  bottom: 1%;
+  width: 100%;
+}
+.sidebar-logout {
+  position: fixed;
+  width: 100%;
+  bottom: 1%;
+}
+.sidebar-home {
+  position: fixed;
+  width: 100%;
+  bottom: 7%;
+}
+// Vuelidate
+.v-messages {
+  color: #F44336 !important;
+}
+.v-field--error:not(.v-field--disabled)  {
+  .v-label.v-field-label {
+    color: #F44336 !important;
+  }
+}
+.v-selection-control--error:not(.v-selection-control--disabled)  {
+  .v-label {
+    color: #F44336 !important;
+  }
+}
+.v-selection-control--error:not(.v-selection-control--disabled)  {
+  .v-selection-control__input > .v-icon {
+    color: #F44336 !important;
+  }
+}

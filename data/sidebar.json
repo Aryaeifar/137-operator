@@ -1,0 +1,24 @@
+{
+    "links": [
+        {
+            "title" : "ثبت گزارش",
+            "link" : "/submit-report",
+            "icon" : "fas fa-circle-plus",
+            "value" : "ثبت"
+        },
+        {
+            "title" : "گزارش ها",
+            "link" : "/reports",
+            "icon" : "fas fa-magnifying-glass",
+            "value" : "جستجو"
+        },
+        {
+            "title" : "بخش ها",
+            "link" : "/departments",
+            "icon" : "fas fa-building",
+            "value" : "بخش"
+        }
+        
+    ]
+    
+}
